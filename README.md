@@ -1,16 +1,86 @@
-# React + Vite
+# 🎲 Ludo Move Counter (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based project that simulates a **Ludo move counter**. Each player (Blue, Red, Yellow, Green) has a button to increase their move count. This project demonstrates **React useState**, event handling, and dynamic UI updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## React Compiler
+<p align="center">
+  <img src="./Screenshot.png" width="600" />
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Track moves for 4 players (Blue, Red, Yellow, Green)
+- Real-time UI updates using React state
+- Simple and beginner-friendly UI
+- Uses functional components and hooks
+
+---
+
+## 🧠 What You Learn
+
+- React `useState` hook
+- Updating state using previous state
+- Event handling in React
+- Managing multiple values in one state object
+
+---
+
+## 📂 Project Structure
+ludo-move-counter
+├── src
+│ ├── App.jsx
+│ └── LudoBoard.jsx
+├── screenshot.png
+├── index.html
+├── package.json
+└── README.md
+
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ludo-move-counter.git
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ludo-move-counter.git
+
+2. Navigate to project folder:
+   
+   cd ludo-move-counter
+
+4. Install dependencies:
+   
+   npm install
+
+4. Start development server:
+   
+   npm run dev
+   
+6. Open in browser:
+   
+   http://localhost:5173
+
+## 🛠 Tech Stack
+
+   - React
+   - JavaScript (ES6)
+   - HTML
+   - CSS
+   
+## 📄 License
+
+   This project is free to use for learning and practice.
+
+## ⭐ If you like this project, consider giving it a star!
