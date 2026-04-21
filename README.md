@@ -43,12 +43,7 @@ ludo-move-counter
 
 ---
 
-## ▶️ How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ludo-move-counter.git
----
 
 ## ▶️ How to Run
 
